@@ -1,0 +1,237 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "salam",
+        "asalam o alaikum",
+        "salaam"
+      ],
+      "responses": [
+        {
+          "english": "Hey {name}, welcome to the café!",
+          "urdu": "Salam {name}, café mein khush amdeed!"
+        },
+        {
+          "english": "Hello {name}, thanks for visiting!",
+          "urdu": "Salam {name}, aapkay aanay ka shukriya!"
+        },
+        {
+          "english": "Hi {name}, what can I do for you?",
+          "urdu": "Salam {name}, mein aapki kya madad kar sakta hoon?"
+        }
+      ]
+    },
+    {
+      "tag": "feelings",
+      "patterns": [
+        "how are you?",
+        "what's up?",
+        "kesay ho?",
+        "kesa hai?"
+      ],
+      "responses": [
+        {
+          "english": "I'm good, thanks!",
+          "urdu": "Mein theek hoon, shukriya!"
+        }
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Khuda hafiz",
+        "Allah hafiz"
+      ],
+      "responses": [
+        {
+          "english": "See you later, thanks for visiting!",
+          "urdu": "Phir miltay hain, aanay ka shukriya!"
+        },
+        {
+          "english": "Have a nice day!",
+          "urdu": "Aap ka din acha guzray!"
+        },
+        {
+          "english": "Bye! Come back soon.",
+          "urdu": "Khuda hafiz! Jaldi wapas aaiye!"
+        }
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Shukriya",
+        "Shukria"
+      ],
+      "responses": [
+        {
+          "english": "Happy to help!",
+          "urdu": "Madad karke khushi hui!"
+        },
+        {
+          "english": "Any time!",
+          "urdu": "Kabhi bhi!"
+        },
+        {
+          "english": "My pleasure!",
+          "urdu": "Meri khushi!"
+        }
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "do you have tea",
+        "do you have coffee",
+        "tea available",
+        "coffee available",
+        "chai hai?",
+        "coffee hai?",
+        "chai available hai?",
+        "coffee available hai?"
+      ],
+      "responses": [
+        {
+          "english": "We have tea and coffee!",
+          "urdu": "Humaray paas chai aur coffee hai!"
+        }
+      ]
+    },
+    {
+      "tag": "order_start",
+      "patterns": [
+        "I want tea",
+        "I want coffee",
+        "Can I have tea?",
+        "Can I have coffee?",
+        "tea",
+        "coffee",
+        "mujhe chai chahiye",
+        "mujhe coffee chahiye",
+        "chai do",
+        "coffee do",
+        "nahi chai chahiye",
+        "nahi coffee chahiye",
+        "order kerna hai",
+        "chai order kerna hai",
+        "coffee order kerna hai",
+        "mujhe order dena hai"
+      ],
+      "responses": [
+        {
+          "english": "Sure, let's start your order!",
+          "urdu": "Zabardast! Apna order shuru karein!"
+        }
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "card pe payment hai?",
+        "cash payment hai?",
+        "online payment",
+        "online payment kerna hai"
+      ],
+      "responses": [
+        {
+          "english": "We accept VISA, Mastercard, and Paypak.",
+          "urdu": "Hum VISA, Mastercard aur Paypak accept karte hain."
+        },
+        {
+          "english": "We accept cash and major credit cards.",
+          "urdu": "Hum cash aur zyadatar credit cards accept karte hain."
+        }
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Do you deliver?",
+        "Is delivery available?",
+        "What locations do you deliver?",
+        "delivery hai?",
+        "delivery karte ho?"
+      ],
+      "responses": [
+        {
+          "english": "Yes, we deliver to Islamabad, Lahore, and Karachi.",
+          "urdu": "Jee haan, hum Islamabad, Lahore aur Karachi mein deliver karte hain."
+        }
+      ]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "How long will it take?",
+        "How long for delivery?",
+        "When will it arrive?",
+        "delivery ka kitna time hai?",
+        "kitni dair lagy gi?",
+        "delivery kab tak hogi?"
+      ],
+      "responses": [
+        {
+          "english": "Delivery takes 20 - 40 minutes.",
+          "urdu": "Delivery mein 20 - 40 minutes lagtay hain."
+        }
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much is it?",
+        "What do you charge?",
+        "Is it expensive?",
+        "what's the price?",
+        "how much does it cost?",
+        "price kya hai?",
+        "kitnay ka hai?",
+        "chai kitnay ki hai?",
+        "coffee kitnay ki hai?"
+      ],
+      "responses": [
+        {
+          "english": "Tea is Rs. 110 and coffee is Rs. 180.",
+          "urdu": "Chai 110 rupay ki hai aur coffee 180 rupay ki hai."
+        }
+      ]
+    },
+    {
+      "tag": "confusion",
+      "patterns": [
+        "hein",
+        "huh",
+        "kya?",
+        "kuch samajh nahi aaya"
+      ],
+      "responses": [
+        {
+          "english": "Sorry, could you repeat that?",
+          "urdu": "Maaf kijiye, kya aap dohrayein?"
+        }
+      ]
+    }
+  ]
+}
