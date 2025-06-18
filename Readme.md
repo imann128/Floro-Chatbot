@@ -272,9 +272,6 @@ Database: Store orders in SQLite.
 Contact the developer for issues or suggestions.
 Fork the repository and submit pull requests.
 
-# License
-MIT License.
-
 # Acknowledgments
 Built with Python, PyTorch, NLTK, and Tkinter.
 Inspired by bilingual customer service in Pakistan.
