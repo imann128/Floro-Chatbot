@@ -47,6 +47,8 @@ Python 3.13
 Libraries: torch, nltk, tkinter (included with Python)
 NLTK data: Run nltk.download('punkt') in Python
 (On Windows OS, you might get an error by downloading nltk.download('punkt') only. Add another line nltk.download('punkt_tab') in the train.py if arises) 
+Run pip3 install torch torchvision torchaudio --> pytorch command for CPU
+Run pip install nltk --> nltk install command
 
 # Installation
 
